@@ -5,25 +5,35 @@ output: github_document
 
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+
+```{r}
+
+print("hello world")
+
 ```
 
-# Here's an example Markdown header
 
-And some Markdown text for fun :) 
+Running this code will reproduce part of our Hill numbers exercise from last week:
+
+```{r}
+songs_data <- read.csv("https://raw.githubusercontent.com/eco-evo-thr-2022/05-simple-metrics/hill/song_plays.csv")
+
+head(songs_data)
+
+library(ggplot2)
+
+ggplot(songs_data, aes(rank, plays)) +
+  geom_line()
 
 
-```{r cars}
-summary(cars)
 ```
 
-## Including Plots
 
-You can also embed plots, for example:
+The rest of last week's script is available online at https://raw.githubusercontent.com/eco-evo-thr-2022/05-simple-metrics/main/hill_from_class.R
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+You can copy-paste code from there to practice modifying and rendering code in RMarkdown! Here's an empty code block to get you started:
+
+```{r}
+
+
 ```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
