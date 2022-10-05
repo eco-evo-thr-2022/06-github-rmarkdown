@@ -17,3 +17,9 @@ Click the image below to check out the video about GitHub!
 Click the image below to check out the video about GitHub!
 
 [![rmd](https://img.youtube.com/vi/sjGyuQuh6tg/0.jpg)](https://www.youtube.com/watch?v=sjGyuQuh6tg)
+
+
+# Resources
+
+* RStudio's RMarkdown tutorials: https://rmarkdown.rstudio.com/lesson-1.html
+* RMarkdown Cheatsheet: https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf

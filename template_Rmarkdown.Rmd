@@ -5,28 +5,35 @@ output: github_document
 
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+
+```{r}
+
+print("hello world")
+
 ```
 
-## GitHub Documents
 
-This is an R Markdown format used for publishing markdown documents to GitHub. When you click the **Knit** button all R code chunks are run and a markdown file (.md) suitable for publishing to GitHub is generated.
+Running this code will reproduce part of our Hill numbers exercise from last week:
 
-## Including Code
+```{r}
+songs_data <- read.csv("https://raw.githubusercontent.com/eco-evo-thr-2022/05-simple-metrics/hill/song_plays.csv")
 
-You can include R code in the document as follows:
+head(songs_data)
 
-```{r cars}
-summary(cars)
+library(ggplot2)
+
+ggplot(songs_data, aes(rank, plays)) +
+  geom_line()
+
+
 ```
 
-## Including Plots
 
-You can also embed plots, for example:
+The rest of last week's script is available online at https://raw.githubusercontent.com/eco-evo-thr-2022/05-simple-metrics/main/hill_from_class.R
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+You can copy-paste code from there to practice modifying and rendering code in RMarkdown! Here's an empty code block to get you started:
+
+```{r}
+
+
 ```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
