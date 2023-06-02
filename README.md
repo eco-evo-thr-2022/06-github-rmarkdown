@@ -19,3 +19,8 @@ Click the image below to check out the video about GitHub!
 Click the image below to check out the video about GitHub!
 
 [![rmd](https://img.youtube.com/vi/sjGyuQuh6tg/0.jpg)](https://www.youtube.com/watch?v=sjGyuQuh6tg)
+
+## Funding acknowledgement
+
+
+Renata Diaz's work on this project was supported by NSF award [DBI-2208901](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2208901&HistoricalAwards=false). 
